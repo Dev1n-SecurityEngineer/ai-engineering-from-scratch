@@ -151,3 +151,9 @@ manuals/*/capture/demos/**/*.db
 .project-validation/
 projects/*/solution/output/
 projects/*/solution/demo-output/
+
+# Excluding model checkpoint files 
+
+*.pt
+*.pth
+*.safetensors
